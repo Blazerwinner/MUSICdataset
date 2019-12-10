@@ -1,5 +1,14 @@
 <!DOCTYPE html> <!-- doctype declaration -->
-<nav class="navbar navbar-inverse">
+
+<html> <!--HTML opening tab -->
+<head> <!-- head section contains info about the web page -->
+<link rel= "stylesheet" type= "text/css" href= "stylesheet.css">
+<meta charset= "utf-8"/>
+<script type= "text/javascript" src= "javascript.js"></script>
+  <title> Music Dataset</title> <!-- show in the tab -->
+  </head>
+
+<body><nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
@@ -12,12 +21,6 @@
     </ul>
   </div>
 </nav>
-
-<html> <!--HTML opening tab -->
-<head> <!-- head section contains info about the web page -->
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('music', filename= 'stylesheet.css') }}">
-  <title> Music Dataset</title> <!-- show in the tab -->
-  </head>
 
 <h1>About the Music Data</h1>
    
