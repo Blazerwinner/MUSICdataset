@@ -9,9 +9,29 @@ h1{
 	padding:15px;
 		border: 5px solid MediumTurquoise;
 }
+nav ul {
 
- {
-	display: none;
+    list-style: none;
+    background-color:rgb(60,60,60);
+    border-radius: 6px;
+    height: 50px;
+}
+nav li {
+    display: inline-block;
+    height: 100%;
+}
 
-	
+nav li a {
+    color: rgb(201,201,201);
+    text-decoration: none;
+    font-size: 22px;
+    padding: 6px 12px;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 4px;
+}
+
+nav li a:hover {
+    color: white;
 }

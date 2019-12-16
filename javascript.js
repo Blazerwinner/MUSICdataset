@@ -1,5 +1,7 @@
 function initialize() {
-alert("Work");
+	console.log("initialize");
+	navbar();
+	loadSongs();
 }
 
-window.onload = initialize
+window.onload = initialize;
