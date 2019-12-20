@@ -35,3 +35,53 @@ nav li a {
 nav li a:hover {
     color: white;
 }
+
+.bar-graph {
+	height: 50vh;
+	width:50vwl;
+	background-color:white;
+}
+
+.barHolder {
+	height: 100%;
+	width:30px;
+	margin: 0 4px 0 0;
+	vertical-align: bottom;
+	float:left;
+}
+
+.bar {
+	background: green;
+	width:100%;
+	vertical-align: bottom;
+	float: left;
+	float: left;
+}
+
+.alternateBar {
+	width:100%;
+	vertical-align: bottom;
+	float: left;
+}
+
+.x-label {
+	position: relative;
+	top: 50px;
+}
+
+.x-labels {
+	height:100px;
+	position: relative;
+	top: 100px;
+}
+
+.label {
+	width: 34px;
+	height: 34px;
+	float: left;
+	-webkit-transform: rotate(-90deg);
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}

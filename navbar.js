@@ -8,8 +8,8 @@ $("body").prepend(`<nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">About the Data</a></li>
       <li><a href="musicdata.html">Music Data</a></li>
-      <li><a href="popsongs.html">Popularity of Songs</a></li>
-      <li><a href="databysongs.html">Data by Song</a></li>
+      <li><a href="popgenre.html">Popularity of Genre</a></li>
+      <li><a href="databyartists.html">Data by Artists</a></li>
     </ul>
   </div>
 </nav>`);

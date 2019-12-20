@@ -1,7 +1,11 @@
 function initialize() {
 	console.log("initialize");
 	navbar();
-	loadSongs();
+	try{
+		loadSongs();
+	}
+	catch(e) {}
+	populateGraph();
 }
 
 window.onload = initialize;
